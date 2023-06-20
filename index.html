@@ -8,22 +8,14 @@
     <script type="text/javascript" src="https://unpkg.com/vue@3"></script>
 </head>
 <body>
+  <style type="text/css">
+    
+  </style>
 <div id="app">
-  <p>
-  <input type="text" v-model="greeting">
-</p>
-<p>
-  {{ greeting }} ({{greeting.length}})
-  </p>
+  <button>Click Me</button>
 </div>
 <script type="text/javascript">
-  Vue.createApp({
-    data() {
-      return {
-        greeting: 'What is up'
-      };
-    }
-  }).mount('#app');
+  Vue.createApp({data() {}}).mount('#app');
 </script>
 </body>
 </html>
